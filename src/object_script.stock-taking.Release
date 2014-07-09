@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\dialogmysqlconfig.o
+./release\dialogprintpreview.o
+./release\reportdialog.o
+./release\shippingdialog.o
+./release\moc_mainwindow.o
+./release\moc_dialogmysqlconfig.o
+./release\moc_dialogprintpreview.o
+./release\moc_reportdialog.o
+./release\moc_shippingdialog.o
+./release\qrc_resources.o
+);

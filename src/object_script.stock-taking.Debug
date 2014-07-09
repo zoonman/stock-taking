@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\dialogmysqlconfig.o
+./debug\dialogprintpreview.o
+./debug\reportdialog.o
+./debug\shippingdialog.o
+./debug\moc_mainwindow.o
+./debug\moc_dialogmysqlconfig.o
+./debug\moc_dialogprintpreview.o
+./debug\moc_reportdialog.o
+./debug\moc_shippingdialog.o
+./debug\qrc_resources.o
+);

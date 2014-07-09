@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogMySQLConfig</class>
+ <widget class="QDialog" name="DialogMySQLConfig">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Настройки приложения</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="usesScrollButtons">
+      <bool>false</bool>
+     </property>
+     <property name="tabsClosable">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Общие настройки</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Внешний вид</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBox_ui_style">
+           <item>
+            <property name="text">
+             <string>Windows</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>WindowsXP</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Cleanlooks</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Plastique</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Macintosh</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>CDE</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Motif</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>WindowsVista</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>GTK</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QCheckBox" name="checkBox_always_printer_select">
+           <property name="text">
+            <string>всегда показывать выбор принтера</string>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1" rowspan="2">
+          <widget class="QTextEdit" name="textEdit_doc_header">
+           <property name="font">
+            <font>
+             <family>Old Standard TT</family>
+            </font>
+           </property>
+           <property name="html">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Old Standard TT'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QComboBox" name="comboBox_makers">
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Поставщик</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QToolButton" name="toolButton_add_maker">
+           <property name="toolTip">
+            <string>Добавить</string>
+           </property>
+           <property name="text">
+            <string>Добавить</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/&lt;root&gt;/icons/add.png</normaloff>:/&lt;root&gt;/icons/add.png</iconset>
+           </property>
+           <property name="autoRaise">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QToolButton" name="toolButton_save_maker">
+           <property name="toolTip">
+            <string>Сохранить</string>
+           </property>
+           <property name="text">
+            <string>Сохранить</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/&lt;root&gt;/icons/disk.png</normaloff>:/&lt;root&gt;/icons/disk.png</iconset>
+           </property>
+           <property name="autoRaise">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Заголовок&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;товарного чека&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#585858;&quot;&gt;(зависит от &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#585858;&quot;&gt;выбранного поставщика)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Отчеты</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>Текст в акте сдачи/приемки</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPlainTextEdit" name="plainTextEdit_report_header">
+           <property name="plainText">
+            <string>&lt;html&gt;
+&lt;head&gt;&lt;title&gt;Отчет&lt;/title&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;&lt;/head&gt;
+&lt;body style='font-family: Old Standard TT;'&gt;
+&lt;table align=center width=100% cellspacing=0 cellpadding=2 border=0&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style='font-family: Georgia;font-weight: bold;font-style: italic'&gt;E-mail: &lt;a href='mailto:fabrikasnov@mail.ru'&gt;fabrikasnov@mail.ru&lt;/a&gt;&lt;br&gt;
+&lt;a href='http://www.fabrikasnov.com/'&gt;www.FabrikaSnov.com&lt;/a&gt;&lt;br&gt;тел.:8(928)304-304-8; 8(8652)233-669&lt;/td&gt;&lt;td align=right&gt;&lt;img src=&quot;:/&amp;lt;root&amp;gt;/icons/fab.png&quot; height=45 width=191&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr style='margin: 0px;padding: 0px;'&gt;
+&lt;p style='font-family: Georgia;font-weight: bold;font-style: italic;margin: 0px;padding: 0px;'&gt;355000 г. Ставрополь, ул. Мичурина, 55а&lt;/p&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QPlainTextEdit" name="plainTextEdit_act_mx">
+           <property name="plainText">
+            <string>&lt;p style='margin: 1px;padding: 1px;font-size: 8px'&gt;Внимание! Товар сертифицирован и находится на гарантии. Гарантийным талоном является этикетка с указанными на ней наименованием фирмы изготовителя, ее фактического адреса, наименованием модели, даты изготовления и номера технической документации по которой был произведен товар. В сервисный центр на гарантийное обслуживание товар доставляется за счет покупателя. Срок гарантии 18 месяцев со дня покупки.&lt;/p&gt;
+&lt;p style='margin: 1px;padding: 1px;font-size: 8px'&gt;Обращаем ваше внимание на то, что большинство наших товаров не подлежат возврату или обмену, так как входят в «Перечень непродовольственных товаров надлежащего качества, не подлежащих возврату или обмену на аналогичный товар других размера, формы, габарита, фасона, расцветки или комплектации». Постановление Правительства РФ №55 от 19.01.1998г. п.8 Не подлежит возврату и обмену мебель бытовая (по ГОСТу 19917-93 матрас – мебель для сидения и лежания).&lt;/p&gt;
+&lt;p style='margin: 1px;padding: 1px;font-size: 8px'&gt;Правила эксплуатации:&lt;/p&gt;
+&lt;ol style='margin: 1px;padding: 1px;font-size: 8px'&gt;
+&lt;li&gt;Матрас должен лежать на ровной поверхности или на специальном ортопедическом основании «Титан» компании «Фабрика Снов».&lt;/li&gt;
+&lt;li&gt;Запрещено складывать, сгибать или сворачивать пружинный матрас.&lt;/li&gt;
+&lt;li&gt;Качественные матрасы компании «Фабрика Снов» достаточно переворачивать  1 раз в полгода (min.).&lt;/li&gt;
+&lt;li&gt;Матрас нельзя подвергать действию влаги и прямых солнечных лучей, вследствие чего могут возникнуть повреждения чехла или внутренних слоев.&lt;/li&gt;
+&lt;li&gt;Не разрешается на матрас становиться, прыгать или осуществлять другие грубые воздействия на поверхность матраса.&lt;/li&gt;
+&lt;li&gt;Не рекомендуется сидеть на краю матраса, этим вы можете необратимо деформировать его конструкцию.
+&lt;br&gt;Данная рекомендация не относится к матрасам компании «Фабрика Снов» т.к. ею применяется инновационная система жесткого каркаса System Strong Frame (SSF), которая позволяет поддерживать форму матраса по периметру в первозданном виде на протяжении долгого срока эксплуатации.&lt;/li&gt;
+&lt;li&gt; При эксплуатации матраса рекомендуется использовать наматрасник это позволит защитить обивку матраса.&lt;/li&gt;
+&lt;li&gt; Запрещено превышать допустимую нагрузку на матрас.&lt;/li&gt;
+&lt;li&gt;За изделие, изготовленное по индивидуальному заказу клиента (не стандарт) компания &amp;laquo;Фабрика Снов&amp;raquo; ответственность не несёт.&lt;/li&gt;
+&lt;/ol&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>Шапка всех отчетов</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>DialogMySQLConfig</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>DialogMySQLConfig</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
